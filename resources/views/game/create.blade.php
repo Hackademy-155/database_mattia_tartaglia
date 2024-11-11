@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center my-5">
-                <form method="POST" action="{{route('prod.store')}}">
+                <form method="POST" action="{{route('game.store')}}">
                     @csrf 
                     <div class="mb-3">
                         <label for="title" class="form-label">Titolo</label>

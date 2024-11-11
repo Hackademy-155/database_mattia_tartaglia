@@ -5,5 +5,5 @@ use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PublicController::class, 'homepage'])->name('homepage');
-Route::get('prod/create', [ProdController::class, 'create'])->name('prod.create');
-Route::post('prod/store', [ProdController::class, 'store'])->name('prod.store');
+Route::get('game/create', [ProdController::class, 'create'])->name('game.create');
+Route::post('/game/store', [ProdController::class, 'store'])->name('game.store');
